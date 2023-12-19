@@ -1,1 +1,1 @@
-"# Heightmap2STL" 
+# Heightmap2STL
