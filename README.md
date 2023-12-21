@@ -1,21 +1,31 @@
-# Heightmap2STL
+# Heightmap 2 STL
 
 This repository aims to convert heightmaps into STL files for 3D printing or Finite Element Method Simulations. To reduce the required vertices dynamic subdivision is used instead of an equidistant vertex grid.
 
 ## Usage
 
-The script can be used as follows:
+The input file is a grayscale image, the output file is the resulting STL file.
+
+The script can be run from the command line. The following options are available:
 
 ```bash
-python heightmap2stl.py -i <inputfile> -o <outputfile> -s <scale> -d <divisions>
+Usage: python height2stl.py <input_file> [options]
+Options:
+  -n <nx = 1> <ny = 1>: the number of terrain meshes to create in the x and y directions.
+  -s <max_subdivisions = 10>: the maximum number of times to subdivide the plane.
+  -t <threshold = 0.01>: the minimum detail value to subdivide the plane at.
+  -z <z_scale = 1>: the height of the terrain.
+  -g <ground_height = 0>: the base elevation of the ground.
+  -o <output_file>: the output file to write to. If not specified, the input file name will be used.
+  -h: print this help message.
 ```
 
-The input file is a grayscale image, the output file is the resulting STL file. The scale parameter is used to scale the heightmap to the desired size. The divisions parameter is used to control the number of subdivisions. The number of vertices is 2^divisions + 1.
+> **It is recommend to use a high-dynamic range image format (e.g. .exr) for the heightmap to avoid staircasing artifacts.**
 
-## Example
+#
 
+### Examples
 
-Here is an example of a heightmap and the resulting STL file:
-
-![heightmap](demo/heightmap.png)
-![mesh](demo/heightmap_stl.png)
+Input Heightmap            |  Resulting Mesh
+:-------------------------:|:-------------------------:
+![](demo/heightmap.png)    |  ![](demo/heightmap_stl.png)
