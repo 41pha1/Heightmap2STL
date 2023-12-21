@@ -1,6 +1,7 @@
 # Heightmap 2 STL
 
-This repository aims to convert heightmaps into STL files for 3D printing or Finite Element Method Simulations. To reduce the required vertices dynamic subdivision is used instead of an equidistant vertex grid.
+This is a Python script to convert heightmaps of terrain or cities into STL files. The resulting STL file can be used for 3D printing or further processing in CAD software.
+To reduce the required vertices dynamic subdivision is used instead of an equidistant vertex grid.
 
 ## Usage
 
