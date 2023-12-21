@@ -1,3 +1,10 @@
+![Contributors](https://img.shields.io/github/contributors/41pha1/heightmap2stl)
+![Last Commit](https://img.shields.io/github/last-commit/41pha1/heightmap2stl)
+![Issues](https://img.shields.io/github/issues/41pha1/heightmap2stl)
+![License](https://img.shields.io/github/license/41pha1/heightmap2stl)
+![Stars](https://img.shields.io/github/stars/41pha1/heightmap2stl?style=social)
+![Downloads](https://img.shields.io/github/downloads/41pha1/heightmap2stl/total)
+
 # Heightmap 2 STL
 
 This is a Python script to convert heightmaps of terrain or cities into STL files. The resulting STL file can be used for 3D printing or further processing in CAD software.
