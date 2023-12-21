@@ -24,7 +24,7 @@ def detail_magnitude(heightmap):
     returns: a 2d array of floats between 0 and 1.
     """
 
-    blured = cv.GaussianBlur(heightmap,(21,21),0) * 255
+    blured = cv.GaussianBlur(heightmap,(11,11),0) * 255
 
     gX = cv.Sobel(blured, ddepth=cv.CV_64F, dx=1, dy=0, ksize=5)
     gY = cv.Sobel(blured, ddepth=cv.CV_64F, dx=0, dy=1, ksize=5)
@@ -232,11 +232,8 @@ def createTerrain(heightmap, max_subdivisions, threshold, z_scale, ground_height
     for i in range(len(edge)):
         triangles.append([edge[i], edge[(i+1) % len(edge)], len(vertices) - 1])
 
-
     print("Exporting to stl file...")
-    stl = tm.Trimesh(vertices=np.array(vertices), faces=np.array(triangles))
-    stl.export("test.stl")
-
-    return stl
+    return tm.Trimesh(vertices=np.array(vertices), faces=np.array(triangles))
+    
 
     
