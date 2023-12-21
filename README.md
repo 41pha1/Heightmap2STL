@@ -8,7 +8,7 @@ The input file is a grayscale image, the output file is the resulting STL file.
 
 The script can be run from the command line. The following options are available:
 
-```bash
+```html
 Usage: python height2stl.py <input_file> [options]
 Options:
   -n <nx = 1> <ny = 1>: the number of terrain meshes to create in the x and y directions.
