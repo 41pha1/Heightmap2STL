@@ -2,8 +2,10 @@
 ![Last Commit](https://img.shields.io/github/last-commit/41pha1/heightmap2stl)
 ![Issues](https://img.shields.io/github/issues/41pha1/heightmap2stl)
 ![License](https://img.shields.io/github/license/41pha1/heightmap2stl)
-![Stars](https://img.shields.io/github/stars/41pha1/heightmap2stl?style=social)
 ![Downloads](https://img.shields.io/github/downloads/41pha1/heightmap2stl/total)
+![Stars](https://img.shields.io/github/stars/41pha1/heightmap2stl?style=social)
+
+
 
 # Heightmap 2 STL
 
