@@ -30,3 +30,4 @@ Options:
 Input Heightmap            |  Resulting Mesh
 :-------------------------:|:-------------------------:
 ![](demo/heightmap.png)    |  ![](demo/heightmap_stl.png)
+![](demo/city.png)         |  ![](demo/city_stl.png)
