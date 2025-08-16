@@ -1,7 +1,6 @@
 ![Contributors](https://img.shields.io/github/contributors/41pha1/heightmap2stl)
 ![Last Commit](https://img.shields.io/github/last-commit/41pha1/heightmap2stl)
 ![Issues](https://img.shields.io/github/issues/41pha1/heightmap2stl)
-![License](https://img.shields.io/github/license/41pha1/heightmap2stl)
 ![Downloads](https://img.shields.io/github/downloads/41pha1/heightmap2stl/total)
 ![Stars](https://img.shields.io/github/stars/41pha1/heightmap2stl?style=social)
 
@@ -40,3 +39,4 @@ Input Heightmap            |  Resulting Mesh
 :-------------------------:|:-------------------------:
 ![](demo/heightmap.png)    |  ![](demo/heightmap_stl.png)
 ![](demo/city.png)         |  ![](demo/city_stl.png)
+
