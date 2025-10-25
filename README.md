@@ -22,7 +22,7 @@ Usage: python height2stl.py <input_file> [options]
 Options:
   -n <nx = 1> <ny = 1>: the number of terrain meshes to create in the x and y directions.
   -s <max_subdivisions = 10>: the maximum number of times to subdivide the plane.
-  -t <threshold = 0.01>: the minimum detail value to subdivide the plane at.
+  -t <angle_threshold_deg = 5.0>: maximum quad normal angle before subdividing (degrees).
   -z <z_scale = 1>: the height of the terrain.
   -g <ground_height = 0>: the base elevation of the ground.
   -o <output_file>: the output file to write to. If not specified, the input file name will be used.
